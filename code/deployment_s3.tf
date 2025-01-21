@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "data" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "data"
     yor_trace            = "cf28ebf9-614b-4efe-9321-4dc5feea4906"
   }
@@ -31,7 +31,7 @@ resource "aws_s3_bucket_object" "data_object" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "data_object"
     yor_trace            = "0e3c8b79-7d5b-4440-a7a9-222673bc1e53"
   }
@@ -52,7 +52,7 @@ resource "aws_s3_bucket" "financials" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "financials"
     yor_trace            = "dd06b1c6-8f5a-46a7-a466-88393cf316cb"
   }
@@ -75,7 +75,7 @@ resource "aws_s3_bucket" "operations" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "operations"
     yor_trace            = "8468844e-c0f6-4d83-8cf9-6c98bd75aee1"
   }
@@ -101,7 +101,7 @@ resource "aws_s3_bucket" "data_science" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "data_science"
     yor_trace            = "c6fa41e5-ef6c-4481-b02d-d32f53862797"
   }
@@ -130,7 +130,7 @@ resource "aws_s3_bucket" "logs" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "logs"
     yor_trace            = "dac100f2-0a5f-4d09-809d-2597ca2fd970"
   }

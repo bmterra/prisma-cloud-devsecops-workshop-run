@@ -17,7 +17,7 @@ resource "aws_ec2_host" "test" {
     git_last_modified_by = "tprendervill@paloaltonetworks.com"
     git_modifiers        = "tprendervill"
     git_org              = "bmterra"
-    git_repo             = "prisma-cloud-devsecops-workshop"
+    git_repo             = "prisma-cloud-devsecops-workshop-run"
     yor_name             = "test"
     yor_trace            = "55e24abc-a2d9-4589-a7ef-a1655782dcb9"
   }
